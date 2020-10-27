@@ -8,6 +8,8 @@ import random
 
 import math
 
+import os
+
 client = commands.Bot(command_prefix='-')
 
 genius = lg.Genius("H7LWN-Xp-B86v4j39jZFAeYDPK600i1GEPunoP2rYYHGxQZPvis5EN-t9gMwTUq9", skip_non_songs=True, excluded_terms=["(Remix)", "(Live)"])
@@ -100,4 +102,4 @@ async def kb(ctx, *, arg):
 
 
 
-client.run("NzY5MzE1NDkzMTg1NzE2Mjc1.X5NO4g.B-oG7c9GslVQYLPIIuzGAp9OwXk")
+client.run(os.environ['KIDZBOP'])
