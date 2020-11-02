@@ -33,7 +33,7 @@ def no_mo_nonos(lyrics):
     #actually replaces all of the swear words
     return lyr.replace("nigga", wholesome_nwords[random.randint(0, len(wholesome_nwords)-1)]).replace("niggas", wholesome_nwords[random.randint(0, len(wholesome_nwords)-1)])\
         .replace("wet-ass pussy", wholesome_wap[random.randint(0, len(wholesome_wap)-1)]).replace("wet ass pussy", wholesome_wap[random.randint(0, len(wholesome_wap)-1)])\
-        .replace(" ho ", "hoe").replace("whores", wholesome_hoe[random.randint(0, len(wholesome_hoe) - 1)])\
+        .replace(" ho ", " hoe ").replace("whores", wholesome_hoe[random.randint(0, len(wholesome_hoe) - 1)])\
         .replace("ass", wholesome_ass[random.randint(0, len(wholesome_ass)-1)]).replace("asses", wholesome_ass[random.randint(0, len(wholesome_ass)-1)])\
         .replace("thicc", wholesome_ass[random.randint(0, len(wholesome_ass)-1)]).replace("fatty", wholesome_ass[random.randint(0, len(wholesome_ass)-1)])\
         .replace("shit", wholesome_shit[random.randint(0, len(wholesome_shit)-1)]).replace("hoe", wholesome_hoe[random.randint(0, len(wholesome_hoe)-1)])\
