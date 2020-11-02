@@ -46,7 +46,7 @@ def no_mo_nonos(lyrics):
         .replace("vagina", wholesome_pussy[random.randint(0, len(wholesome_pussy)-1)]).replace("pussies", wholesome_pussy[random.randint(0, len(wholesome_pussy)-1)])\
         .replace("vaginas", wholesome_pussy[random.randint(0, len(wholesome_pussy)-1)]).replace("sex", wholesome_sex[random.randint(0, len(wholesome_sex)-1)])\
         .replace("fuck", wholesome_sex[random.randint(0, len(wholesome_sex)-1)]).replace("fucking", wholesome_sex[random.randint(0, len(wholesome_sex)-1)])\
-        .replace("sex", wholesome_sex[random.randint(0, len(wholesome_sex)-1)]).replace("ho ", wholesome_hoe[random.randint(0, len(wholesome_hoe)-1)])\
+        .replace("sex", wholesome_sex[random.randint(0, len(wholesome_sex)-1)]).replace(" ho ", wholesome_hoe[random.randint(0, len(wholesome_hoe)-1)])\
         .replace("titty", wholesome_titty[random.randint(0, len(wholesome_titty)-1)]).replace("titties", wholesome_titty[random.randint(0, len(wholesome_titty)-1)])\
         .replace("faggot", wholesome_fword[random.randint(0, len(wholesome_fword)-1)]).replace("cum", wholesome_cum[random.randint(0, len(wholesome_cum)-1)])\
         .replace("cumming", wholesome_cum[random.randint(0, len(wholesome_cum)-1)]).replace("bitch", wholesome_bitch[random.randint(0, len(wholesome_bitch)-1)])
