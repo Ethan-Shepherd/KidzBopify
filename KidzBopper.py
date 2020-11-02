@@ -33,7 +33,7 @@ def no_mo_nonos(lyrics):
     #actually replaces all of the swear words
     return lyr.replace("nigga", wholesome_nwords[random.randint(0, len(wholesome_nwords)-1)]).replace("niggas", wholesome_nwords[random.randint(0, len(wholesome_nwords)-1)])\
         .replace("wet-ass pussy", wholesome_wap[random.randint(0, len(wholesome_wap)-1)]).replace("wet ass pussy", wholesome_wap[random.randint(0, len(wholesome_wap)-1)])\
-        .replace("whores", wholesome_hoe[random.randint(0, len(wholesome_hoe) - 1)])\
+        .replace(" ho ", "hoe").replace("whores", wholesome_hoe[random.randint(0, len(wholesome_hoe) - 1)])\
         .replace("ass", wholesome_ass[random.randint(0, len(wholesome_ass)-1)]).replace("asses", wholesome_ass[random.randint(0, len(wholesome_ass)-1)])\
         .replace("thicc", wholesome_ass[random.randint(0, len(wholesome_ass)-1)]).replace("fatty", wholesome_ass[random.randint(0, len(wholesome_ass)-1)])\
         .replace("shit", wholesome_shit[random.randint(0, len(wholesome_shit)-1)]).replace("hoe", wholesome_hoe[random.randint(0, len(wholesome_hoe)-1)])\
@@ -46,7 +46,7 @@ def no_mo_nonos(lyrics):
         .replace("vagina", wholesome_pussy[random.randint(0, len(wholesome_pussy)-1)]).replace("pussies", wholesome_pussy[random.randint(0, len(wholesome_pussy)-1)])\
         .replace("vaginas", wholesome_pussy[random.randint(0, len(wholesome_pussy)-1)]).replace("sex", wholesome_sex[random.randint(0, len(wholesome_sex)-1)])\
         .replace("fuck", wholesome_sex[random.randint(0, len(wholesome_sex)-1)]).replace("fucking", wholesome_sex[random.randint(0, len(wholesome_sex)-1)])\
-        .replace("sex", wholesome_sex[random.randint(0, len(wholesome_sex)-1)]).replace(" ho ", wholesome_hoe[random.randint(0, len(wholesome_hoe)-1)])\
+        .replace("sex", wholesome_sex[random.randint(0, len(wholesome_sex)-1)])\
         .replace("titty", wholesome_titty[random.randint(0, len(wholesome_titty)-1)]).replace("titties", wholesome_titty[random.randint(0, len(wholesome_titty)-1)])\
         .replace("faggot", wholesome_fword[random.randint(0, len(wholesome_fword)-1)]).replace("cum", wholesome_cum[random.randint(0, len(wholesome_cum)-1)])\
         .replace("cumming", wholesome_cum[random.randint(0, len(wholesome_cum)-1)]).replace("bitch", wholesome_bitch[random.randint(0, len(wholesome_bitch)-1)])
